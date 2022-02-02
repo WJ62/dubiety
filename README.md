@@ -3,7 +3,8 @@ you will have the ability to use these values in basic arithmetic calculations a
 (with a non-uncertain and uncertain value). For more possible operations (such as the trigonometric ones [more to come in 
 the future]), use the dmath class of functions available through the package. The uncertainty is calculated following the 
 equations found in Data reduction and error analysis for the Physical Sciences by Philip R. Bevington and D. Keith Robinson 
-(McGraw-Hill).
+(McGraw-Hill). The reson behind the project is to simplify the data data analysis that has to be done in my PHY1501 class 
+for the physics bacc. at the university of Montreal that I'm currently taking.
 
 Example of use :
 import dubiety,dmath
