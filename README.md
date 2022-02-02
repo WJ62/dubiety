@@ -7,6 +7,7 @@ equations found in Data reduction and error analysis for the Physical Sciences b
 for the physics bacc. at the university of Montreal that I'm currently taking.
 
 Example of use :
+
 import dubiety,dmath
 
 1)
