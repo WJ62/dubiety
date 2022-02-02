@@ -3,8 +3,8 @@ you will have the ability to use these values in basic arithmetic calculations a
 (with a non-uncertain and uncertain value). For more possible operations (such as the trigonometric ones [more to come in 
 the future]), use the dmath class of functions available through the package. The uncertainty is calculated following the 
 equations found in Data reduction and error analysis for the Physical Sciences by Philip R. Bevington and D. Keith Robinson 
-(McGraw-Hill). The reson behind the project is to simplify the data data analysis that has to be done in my PHY1501 class 
-for the physics bacc. at the university of Montreal that I'm currently taking.
+(McGraw-Hill). The reson behind the project is to simplify the data analysis that has to be done in my PHY1501 class 
+at the university of Montreal.
 
 Example of use :
 
@@ -15,7 +15,7 @@ dubiety(32.9038,0.0323)
 >>> 32.90 ± 0.03
 
 2)
-dubiety(32.9038,0.0323,onecs=False)
+dubiety(32.9038,0.0323,onecs=False) # onecs decides the number of significant numbers. True if 1, False if not important. The default is True.
 >>> 32.9038 ± 0.0323
 
 3)
