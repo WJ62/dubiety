@@ -3,8 +3,9 @@ you will have the ability to use these values in basic arithmetic calculations a
 (with a non-uncertain and uncertain value). For more possible operations (such as the trigonometric ones [more to come in 
 the future]), use the dmath class of functions available through the package. The uncertainty is calculated following the 
 equations found in Data reduction and error analysis for the Physical Sciences by Philip R. Bevington and D. Keith Robinson 
-(McGraw-Hill). The reson behind the project is to simplify the data analysis that has to be done in my PHY1501 class 
-at the university of Montreal.
+(McGraw-Hill). More specifically, the uncertainty after an operation will be propagated using basic linear error propagation 
+theory by calculating the partial derivatives. The reson behind the project is to simplify the data analysis that has to be
+done in my PHY1501 class at the university of Montreal.
 
 Example of use :
 
@@ -23,5 +24,9 @@ dubiety(13.878,0.0623)+dubiety(32.9038,0.0323)
 >>> 46.78 ± 0.09
 
 4)
+dubiety(13.878,0.0623)*dubiety(32.9038,0.0323)
+>>> 457 ± 2 
+
+5)
 dmath.sin(dubiety(13.878,0.0623))
 >>> 0.24 ± 0.06
