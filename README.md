@@ -4,7 +4,7 @@ you will have the ability to use these values in basic arithmetic calculations a
 the future]), use the dmath class of functions available through the package. The uncertainty is calculated following the 
 equations found in Data reduction and error analysis for the Physical Sciences by Philip R. Bevington and D. Keith Robinson 
 (McGraw-Hill). More specifically, the uncertainty after an operation will be propagated using basic linear error propagation 
-theory by calculating the partial derivatives of the resulting function. The reson behind the project is to simplify the data analysis that has to be
+theory by calculating the partial derivatives of the resulting function. The reason behind the project is to simplify the data analysis that has to be
 done in my PHY1501 class at the university of Montreal.
 
 Example of use :
